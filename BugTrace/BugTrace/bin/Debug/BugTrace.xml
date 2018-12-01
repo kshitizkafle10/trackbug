@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BugTrace</name>
+    </assembly>
+    <members>
+        <member name="T:BugTrace.dashboard">
+            <summary>
+            This is a program about the bug tracking.
+            It is a console application where bug is tracked and solved by different users.
+            In this program bug is added by tester and admin. Programmer solved the bug.
+            </summary>
+        </member>
+        <member name="M:BugTrace.dashboard.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            getting the username
+            getting the password 
+            getting role for associating credentials
+            to display the profile with the specified id
+            </summary>
+            <param name="uname">fetching username for login process from register table</param>
+            <param name="pword">fetching password for login process from register table</param>
+            <param name="type">for differentiating the role of different users</param>
+            <param name="id">To display the profile of specified user</param>
+        </member>
+        <member name="M:BugTrace.dashboard.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            validation for empty
+            inserting the script 
+            uploading the image in database 
+            caliing the different methods
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.button1_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            creating a file explorer for choosing the image of different format
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            enabling the parent and disabling child tab
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.button2_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            enalingand disabling the buttons
+            updating the table with update query
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.account">
+            <summary>
+            This method is used for displaying data to create a proifle for the users.
+            ListView class is used to display collection of items.
+            Listviewitem is list out the items of the class listview
+            subitems represents listviewitems
+            </summary>
+        </member>
+        <member name="M:BugTrace.dashboard.solve">
+            <summary>
+            inserting the solution for the error receiveing code
+            </summary>
+        </member>
+        <member name="M:BugTrace.dashboard.bugDisplay">
+            <summary>
+            readin database command and connection and updating them
+            create a table for the datas
+            displaying the data source in the gridview
+            </summary>
+        </member>
+        <member name="M:BugTrace.dashboard.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            inserting solution of error
+            displaying differetn solution  in a listview
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.usearch_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            searh qury
+            data is storedin listview item
+            like statemetn is used for searching
+            clearing the data
+            searching is case senesitive
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            fetching the data from slected row in a gridveiw and sending to the new instance of different class
+            showing and opeing the panel
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.search_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            searhing query
+            reading aways a next upcoming data
+            displaying dta  from dtabase with grid view
+            searching the compopnent wiht like query
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.hsearch_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            searching the data with help of name and date
+            and searching is case senstitive
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.dashboard.bughistory">
+            <summary>
+            displaying the bbug history
+            displaying data in listview
+            </summary>
+        </member>
+        <member name="F:BugTrace.dashboard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTrace.dashboard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTrace.dashboard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form1.#ctor">
+            <summary>
+            intiliazing the role type and id for the users
+            
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            storing user id abd type 
+            checking user's typing sending them to thier panel
+            user are logged in to their pannel according to thier userid ,usernamee,passsword
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            opening new stance
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            stating the interface through which user can control driver
+            finding the web element
+            displaying curernt url
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BugTrace.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTrace.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form2.#ctor(System.Int32)">
+            <summary>
+            here  fettch th id for editing bug
+            </summary>
+            <param name="abc"> returning a data to parameter constructor</param>
+        </member>
+        <member name="M:BugTrace.Form2.getBug">
+            <summary>
+            opening connection
+            select query implementation
+            opening a method by reading every singgle data from database
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form2.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            updating the data
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BugTrace.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTrace.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTrace.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BugTrace.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:BugTrace.register.#ctor">
+            <summary>
+            Registration form
+            Here is user is registered and differentiate their role
+            </summary>
+        </member>
+        <member name="M:BugTrace.register.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            validation for user
+            inserting the records into database
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BugTrace.register.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            opening a child form and closing parent
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BugTrace.register.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BugTrace.register.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BugTrace.register.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BugTrace.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_icons_exit2_1564506">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_icons_exit2_15645061">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_lock_24_103178">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_lock_24_1031781">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_user_alt_285645">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BugTrace.Properties.Resources.if_user_alt_2856451">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
